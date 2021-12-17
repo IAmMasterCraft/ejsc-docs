@@ -30,55 +30,22 @@
       app
     >
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
-      <v-btn
-        icon
-        @click.stop="miniVariant = !miniVariant"
-      >
-        <v-icon>mdi-{{ `chevron-${miniVariant ? 'right' : 'left'}` }}</v-icon>
-      </v-btn>
-      <v-btn
-        icon
-        @click.stop="clipped = !clipped"
-      >
-        <v-icon>mdi-application</v-icon>
-      </v-btn>
-      <v-btn
-        icon
-        @click.stop="fixed = !fixed"
-      >
-        <v-icon>mdi-minus</v-icon>
-      </v-btn>
       <v-toolbar-title v-text="title" />
       <v-spacer />
-      <v-btn
-        icon
-        @click.stop="rightDrawer = !rightDrawer"
+      <v-switch 
+        v-model="isDark" 
+        :append-icon="
+          `mdi-${ isDark ? 'weather-night' : 'white-balance-sunny' }`
+        "
+        @change="$vuetify.theme.dark = isDark"
       >
-        <v-icon>mdi-menu</v-icon>
-      </v-btn>
+      </v-switch>
     </v-app-bar>
     <v-main>
       <v-container>
         <Nuxt />
       </v-container>
     </v-main>
-    <v-navigation-drawer
-      v-model="rightDrawer"
-      :right="right"
-      temporary
-      fixed
-    >
-      <v-list>
-        <v-list-item @click.native="right = !right">
-          <v-list-item-action>
-            <v-icon light>
-              mdi-repeat
-            </v-icon>
-          </v-list-item-action>
-          <v-list-item-title>Switch drawer (click me)</v-list-item-title>
-        </v-list-item>
-      </v-list>
-    </v-navigation-drawer>
     <v-footer
       :absolute="!fixed"
       app
@@ -93,25 +60,76 @@ export default {
   data () {
     return {
       clipped: false,
+      isDark: true,
       drawer: false,
       fixed: false,
       items: [
         {
           icon: 'mdi-apps',
-          title: 'Welcome',
+          title: 'Setup & Installation',
           to: '/'
         },
         {
           icon: 'mdi-chart-bubble',
-          title: 'Inspire',
-          to: '/inspire'
+          title: 'Directory Structure',
+          to: '/directory'
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'Assets & Static Files',
+          to: '/assets'
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'Styling',
+          to: '/styling'
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'Responsiveness',
+          to: '/responsiveness'
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'Adaptiveness',
+          to: '/adaptiveness'
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'Routing',
+          to: '/routing'
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'Frontend Store',
+          to: '/store'
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: '3rd Party Plugins',
+          to: '/plugins'
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'API Calls',
+          to: '/api'
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'Other Resources & URLs',
+          to: '/others'
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'Glossary',
+          to: '/glossary'
         }
       ],
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'Vuetify.js'
+      title: 'EJSC Documentation'
     }
-  }
+  },
 }
 </script>

@@ -1,0 +1,16 @@
+{
+    "menu": [
+        "Setup & Installation",
+        "Directory Structure",
+        "Assets & Static Files",
+        "Styling",
+        "Responsiveness",
+        "Adaptiveness",
+        "Routing",
+        "Frontend Store",
+        "3rd Party Plugins",
+        "API Calls",
+        "Other Resources & URLS",
+        "Glossary"
+    ]
+}
