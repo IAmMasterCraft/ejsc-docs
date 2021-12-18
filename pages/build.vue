@@ -27,8 +27,8 @@
           <h3>Pulling to server</h3>
           <p>
             - Login to server via SSH client with appropriate configs <br />
-            - cd into ejsc-demo directory which is at <code>usr/var/html/ejsc-demo</code>
-            - run <code>git pull</code> to pull the remote update to server
+            - cd into ejsc-demo directory which is at <code>usr/var/html/ejsc-demo</code> <br />
+            - run <code>git pull</code> to pull the remote update to server <br />
             PS: <i>It might require some authentication from you</i><br />
           </p>
         </v-card-text>
