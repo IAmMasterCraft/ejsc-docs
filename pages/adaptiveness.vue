@@ -19,10 +19,10 @@
             else the changes on the desktop will not be propagated on mobile
           </p>
           <p>
-            - Front end components for each page can be found in <code>./src/components</code> directory
-            - The mobile page for the front end components are inside <code>./src/components/mobile</code> directory
-            - Users' dashboard components are inside <code>./src/pages</code> directory
-            - The mobile page for the users' dashboard components are inside <code>./src/pages_mobile</code> directory
+            - Front end components for each page can be found in <code>./src/components</code> directory <br />
+            - The mobile page for the front end components are inside <code>./src/components/mobile</code> directory <br />
+            - Users' dashboard components are inside <code>./src/pages</code> directory <br />
+            - The mobile page for the users' dashboard components are inside <code>./src/pages_mobile</code> directory <br />
           </p>
         </v-card-text>
         <v-card-actions v-if="true === false">
