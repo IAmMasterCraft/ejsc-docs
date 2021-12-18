@@ -19,7 +19,7 @@
             to="/inspire"
           >
             Continue
-          </v-btn>git
+          </v-btn>
         </v-card-actions>
       </v-card>
     </v-col>

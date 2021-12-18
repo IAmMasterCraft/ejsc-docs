@@ -37,7 +37,7 @@
             + fonts: this folder contains the font file for the custom font used in the project
           </p>
           <p>
-            + pages: This houses vue code for the users' backend part of the website (i.e. the part that does requires authentication)
+            + pages: This houses vue code for the users' backend/users' dashboard part of the website (i.e. the part that does requires authentication)
           </p>
           <p>
             + pages_mobile: mobile vue code for <i>pages</i> folder
@@ -52,7 +52,7 @@
             + store: This is for managing Vuex store and different state in the web app
           </p>
           <p>
-            + views: This houses vue code for each separate page on the web app
+            + views: This houses vue code for each of the separate page on the web app
           </p>
         </v-card-text>
         <v-card-actions v-if="true === false">

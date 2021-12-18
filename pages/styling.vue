@@ -13,17 +13,17 @@
           <p/>
           <p>
             Bulma CSS Framework was used in styling this project and for things to be eaiser,
-            A sass file was created in the sass directory and was used to set style value for
+            A sass file was created in the sass directory and was used to customize bulma and set style value for
             different properties according to the design system, most especially the primary
             and secondary color code<br />
             The sass file was compiled to generate mystyles.css
           </p>
           <hr />
-          <h3>Compile SASS file:</h3>
+          <h3>Compiling a SASS file:</h3>
           <p>
-            - Modify mystyles.scss file in the sass folder
-            - Delete, rename or backup mystyles.css file in the css folder
-            - Open your terminal
+            - Modify mystyles.scss file in the sass folder <br />
+            - Delete, rename or backup mystyles.css file in the css folder <br />
+            - Open your terminal <br />
             - run <code>npm run sass</code> command to compile and generate mystyles.css file
             in the css folder
           </p>
@@ -36,7 +36,7 @@
             to="/inspire"
           >
             Continue
-          </v-btn>git
+          </v-btn>
         </v-card-actions>
       </v-card>
     </v-col>

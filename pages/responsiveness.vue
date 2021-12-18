@@ -11,7 +11,7 @@
             It has several class utility and components that makes development easy and it is
             highly customizable
           <p/>
-          <p>You check out <a href="https://bulma.io/documentation/" target="_blank">Bulma Documentation here</a></p>
+          <p>You can check out <a href="https://bulma.io/documentation/" target="_blank">Bulma Documentation here</a></p>
         </v-card-text>
         <v-card-actions v-if="true === false">
           <v-spacer />
