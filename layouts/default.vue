@@ -121,6 +121,11 @@ export default {
         },
         {
           icon: 'mdi-chart-bubble',
+          title: 'Build & Deploy',
+          to: '/build'
+        },
+        {
+          icon: 'mdi-chart-bubble',
           title: 'Glossary',
           to: '/glossary'
         }
