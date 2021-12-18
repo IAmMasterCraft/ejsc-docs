@@ -109,11 +109,11 @@ export default {
           title: '3rd Party Plugins',
           to: '/plugins'
         },
-        {
-          icon: 'mdi-chart-bubble',
-          title: 'API Calls',
-          to: '/api'
-        },
+        // {
+        //   icon: 'mdi-chart-bubble',
+        //   title: 'API Calls',
+        //   to: '/api'
+        // },
         {
           icon: 'mdi-chart-bubble',
           title: 'Other Resources & URLs',
